@@ -9,7 +9,7 @@ namespace ConsoleApp1.Models
         public string RoleName { get; set; }
         public string? PermissionsDescription { get; set; }
 
-        public ICollection<Employee>? Employees { get; set; }
+        // public ICollection<Employee>? Employees { get; set; }
     }
 
 }
